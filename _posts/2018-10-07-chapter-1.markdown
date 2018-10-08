@@ -2,7 +2,6 @@
 layout: post
 title:  "Chapter 1"
 date:   2018-10-07 22:56:23 -0700
-categories: jekyll update
 ---
 
 Many millions (and these days, even billions) of times every second, the processor **fetches** an instruction from memory, **decodes** it (i.e., figures out which instruction this is), and **executes** it (i.e., it does the thing that it is supposed to do, like add two numbers together, access memory, check a condition, jump to a function, and so forth).
