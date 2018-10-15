@@ -203,7 +203,7 @@ Finally, there are many different kinds of CPU meters you can use to get a quick
 ## Summary
 
 - Each process has a name; in most systems, that name is a number known as a **process ID** (**PID**).
-- The **fork()** system call is used in UNIX systems to create a new process. The creator is called the **parent**; the newly created process is called the **child**. As sometimes occurs in real life [J16], the child process is a nearly identical copy of the parent.
+- The **fork()** system call is used in UNIX systems to create a new process. The creator is called the **parent**; the newly created process is called the **child**. As sometimes occurs in real life, the child process is a nearly identical copy of the parent.
 - The **wait()** system call allows a parent to wait for its child to complete execution.
 - The **exec()** family of system calls allows a child to break free from its similarity to its parent and execute an entirely new program.
 - A UNIX shell commonly uses **fork()**, **wait()**, and **exec()** to launch user commands; the separation of fork and exec enables features like input/output redirection, pipes, and other cool features, all without changing anything about the programs being run.
